@@ -21,6 +21,9 @@ modified: 2026-10-29
 ### 基础
 
 - [[Go/Basics/Hello World|Go 入门：从 Hello World 开始]] —— 最小程序结构、`go run` 与 `go build`、常见编译错误
+- [[Go/Basics/Values|Go 基础：值类型与字面量]] —— 基本类型、默认类型、整数除法、浮点精度与类型转换
+- [[Go/Basics/Variables|Go 基础：变量声明与零值]] —— `var`、`:=`、零值、作用域、变量遮蔽与包级变量
+- [[Go/Basics/Constants|Go 基础：常量、无类型常量与 iota]] —— 编译期常量、高精度表达式、typed/untyped 与枚举
 
 ## 推荐资源
 

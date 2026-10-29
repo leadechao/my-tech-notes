@@ -14,6 +14,9 @@ modified: 2026-10-29
 ## 文章
 
 - [[Go/Basics/Hello World|Go 入门：从 Hello World 开始]] —— 包声明、导入、入口函数，以及 `go run` / `go build` 的区别
+- [[Go/Basics/Values|Go 基础：值类型与字面量]] —— 字符串、整数、浮点数、布尔值、默认类型与显式转换
+- [[Go/Basics/Variables|Go 基础：变量声明与零值]] —— `var`、`:=`、多变量赋值、零值、作用域与变量遮蔽
+- [[Go/Basics/Constants|Go 基础：常量、无类型常量与 iota]] —— `const`、高精度常量表达式、类型化常量与枚举
 
 ## 学习建议
 

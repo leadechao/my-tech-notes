@@ -16,6 +16,9 @@ title: 我的技术博客
 
 ## 最近更新
 
+- [[Go/Basics/Constants|Go 基础：常量、无类型常量与 iota]]（2026-10-29）
+- [[Go/Basics/Variables|Go 基础：变量声明与零值]]（2026-10-29）
+- [[Go/Basics/Values|Go 基础：值类型与字面量]]（2026-10-29）
 - [[Go/Basics/Hello World|Go 入门：从 Hello World 开始]]（2026-10-29）
 
 ## 专题
