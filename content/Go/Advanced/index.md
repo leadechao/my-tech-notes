@@ -1,6 +1,6 @@
 ---
 title: 进阶
-description: Go 进阶学习笔记：函数、指针、字符串、结构体、方法、接口、枚举、嵌入与泛型。
+description: Go 进阶学习笔记：函数、指针、字符串、结构体、方法、接口、枚举、嵌入、泛型、迭代器与错误处理。
 created: 2026-10-29
 modified: 2026-10-29
 ---
@@ -39,6 +39,12 @@ modified: 2026-10-29
 
 - [[Go/Advanced/Generics|Go 进阶：泛型]] —— 类型参数、约束、`comparable`、`~`、泛型类型与类型推断
 
+### 迭代器与错误
+
+- [[Go/Advanced/Range Over Iterators|Go 进阶：range 遍历迭代器]] —— `iter.Seq`、`yield`、惰性迭代、无限序列与标准库工具
+- [[Go/Advanced/Errors|Go 进阶：错误处理]] —— `error`、哨兵错误、`%w`、`errors.Is` / `As` 与错误链
+- [[Go/Advanced/Custom Errors|Go 进阶：自定义错误]] —— 自定义错误类型、`errors.AsType`、`Unwrap` 与 typed nil
+
 ## 学习建议
 
 1. 先确保基础篇的变量、切片、map 已经熟练，再进入这一部分。
@@ -50,5 +56,7 @@ modified: 2026-10-29
 ---
 
 上一阶段：[[Go/Basics/index|Go 基础]]
+
+下一阶段：[[Go/Concurrency/index|Go 并发]]
 
 返回 [[Go/index|Go 学习笔记]]。

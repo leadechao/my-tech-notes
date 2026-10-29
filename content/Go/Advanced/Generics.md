@@ -342,6 +342,6 @@ Java 泛型在运行时会被擦除，不能直接用 `int` 作为类型参数�
 ---
 
 上一篇：[[Go/Advanced/Struct Embedding|Go 进阶：结构体嵌入]]
-下一篇：[Go by Example: Range over Iterators](https://gobyexample.com/range-over-iterators)
+下一篇：[[Go/Advanced/Range Over Iterators|Go 进阶：range 遍历迭代器]]
 
 返回 [[Go/Advanced/index|Go 进阶]]。

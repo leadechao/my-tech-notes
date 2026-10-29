@@ -12,7 +12,7 @@ modified: 2026-10-29
 ## 学习路线
 
 - **基础**：包、变量、类型、流程控制、集合、错误处理
-- **进阶**：函数、指针、字符串、结构体、方法、接口、枚举、嵌入、泛型
+- **进阶**：函数、指针、字符串、结构体、方法、接口、枚举、嵌入、泛型、迭代器、错误处理
 - **并发**：goroutine、channel、`select`、同步原语、并发模式
 - **工程化**：模块、测试、基准测试、性能分析、部署
 
@@ -69,6 +69,36 @@ modified: 2026-10-29
 **泛型**
 
 - [[Go/Advanced/Generics|Go 进阶：泛型]] —— 类型参数、约束、`comparable`、`~`、泛型类型与类型推断
+
+**迭代器与错误**
+
+- [[Go/Advanced/Range Over Iterators|Go 进阶：range 遍历迭代器]] —— `iter.Seq`、`yield`、惰性迭代、无限序列与标准库工具
+- [[Go/Advanced/Errors|Go 进阶：错误处理]] —— `error`、哨兵错误、`%w`、`errors.Is` / `As` 与错误链
+- [[Go/Advanced/Custom Errors|Go 进阶：自定义错误]] —— 自定义错误类型、`errors.AsType`、`Unwrap` 与 typed nil
+
+### 并发
+
+**并发基础**
+
+- [[Go/Concurrency/Goroutines|Go 并发：goroutine]] —— `go` 关键字、调度、主 goroutine 退出、循环变量与数据竞争
+- [[Go/Concurrency/Channels|Go 并发：channel]] —— 发送接收、阻塞、缓冲、关闭、方向、nil channel 与死锁
+- [[Go/Concurrency/Range over Channels|Go 并发：range 遍历 channel]] —— 关闭语义、剩余值、`ok` 判断与发送方关闭规则
+
+**时间控制**
+
+- [[Go/Concurrency/Timers|Go 并发：定时器 Timer]] —— `NewTimer`、`Stop`、`time.After` 与超时控制
+- [[Go/Concurrency/Tickers|Go 并发：周期定时器 Ticker]] —— 周期触发、`Stop`、丢 tick 与 `time.Tick` 泄漏
+
+**并发模式**
+
+- [[Go/Concurrency/Worker Pools|Go 并发：工作池]] —— jobs/results channel、固定 worker、关闭与结果收集
+- [[Go/Concurrency/Rate Limiting|Go 并发：限流]] —— 固定速率、突发令牌桶、`x/time/rate` 与生产实践
+
+**同步与共享**
+
+- [[Go/Concurrency/WaitGroups|Go 并发：WaitGroup]] —— `Add`/`Done`/`Wait`、`wg.Go`、复制禁忌与错误传播
+- [[Go/Concurrency/Atomic Counters|Go 并发：原子计数器]] —— `sync/atomic`、`Uint64`、CAS 与原子操作边界
+- [[Go/Concurrency/Mutexes|Go 并发：互斥锁]] —— `sync.Mutex`、锁粒度、`RWMutex`、死锁与复制禁忌
 
 ## 推荐资源
 

@@ -16,7 +16,8 @@ title: 我的技术博客
 
 ## 最近更新
 
-- [[Go/Advanced/index|Go 进阶笔记]]：函数、指针、结构体、方法、接口、泛型等 14 篇（2026-10-29）
+- [[Go/Concurrency/index|Go 并发笔记]]：goroutine、channel、同步与并发模式 10 篇（2026-10-29）
+- [[Go/Advanced/index|Go 进阶笔记]]：函数、指针、类型、错误、泛型、迭代器等 17 篇（2026-10-29）
 - [[Go/Basics/index|Go 基础笔记]]：从 Hello World 到 map 的 10 篇（2026-10-29）
 
 ## 专题
