@@ -378,6 +378,6 @@ Java 的 `HashMap.get` 返回 `null` 表示键不存在，但值本身也可能�
 ---
 
 上一篇：[[Go/Basics/Slices|Go 基础：切片]]
-下一篇：[Go by Example: Functions](https://gobyexample.com/functions)
+下一篇：[[Go/Advanced/Functions|Go 进阶：函数]]
 
 返回 [[Go/Basics/index|Go 基础]]。

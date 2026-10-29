@@ -11,8 +11,8 @@ modified: 2026-10-29
 
 ## 学习路线
 
-- **基础**：包、变量、函数、流程控制、集合、错误处理
-- **进阶**：结构体、接口、泛型、反射
+- **基础**：包、变量、类型、流程控制、集合、错误处理
+- **进阶**：函数、指针、字符串、结构体、方法、接口、枚举、嵌入、泛型
 - **并发**：goroutine、channel、`select`、同步原语、并发模式
 - **工程化**：模块、测试、基准测试、性能分析、部署
 
@@ -41,6 +41,34 @@ modified: 2026-10-29
 - [[Go/Basics/Arrays|Go 基础：数组]] —— 固定长度、零值、字面量、多维数组与值语义
 - [[Go/Basics/Slices|Go 基础：切片]] —— nil 切片、`make`、`append`、`copy`、切片表达式与底层数组
 - [[Go/Basics/Maps|Go 基础：map]] —— 创建、读写、comma-ok、`delete`/`clear`、遍历顺序与 nil map
+
+### 进阶
+
+**函数**
+
+- [[Go/Advanced/Functions|Go 进阶：函数]] —— 声明、参数简写、显式返回、一等函数与值传递
+- [[Go/Advanced/Multiple Return Values|Go 进阶：多返回值]] —— 多返回值、空白标识符、命名返回值与 result/error
+- [[Go/Advanced/Variadic Functions|Go 进阶：变参函数]] —— `...T`、切片展开、定参混合与底层共享
+- [[Go/Advanced/Closures|Go 进阶：闭包]] —— 匿名函数、变量捕获、独立状态与循环变量
+- [[Go/Advanced/Recursion|Go 进阶：递归]] —— 基准条件、匿名递归、调用栈与性能陷阱
+- [[Go/Advanced/Range Over Built-in Types|Go 进阶：range 遍历内置类型]] —— 数组、切片、map、字符串、channel 与整数
+
+**指针与字符串**
+
+- [[Go/Advanced/Pointers|Go 进阶：指针]] —— `&`、`*`、nil 指针、`new`、结构体指针与使用边界
+- [[Go/Advanced/Strings and Runes|Go 进阶：字符串与 rune]] —— UTF-8 字节、rune、range 解码、字符数与截取
+
+**类型与抽象**
+
+- [[Go/Advanced/Structs|Go 进阶：结构体]] —— 字段、字面量、零值、值语义、比较与匿名结构体
+- [[Go/Advanced/Methods|Go 进阶：方法]] —— 值/指针接收者、方法集、接口实现与 nil 接收者
+- [[Go/Advanced/Interfaces|Go 进阶：接口]] —— 隐式实现、多态、类型断言、空接口与 typed nil
+- [[Go/Advanced/Enums|Go 进阶：枚举]] —— 命名类型、`iota`、Stringer、非法值与 JSON
+- [[Go/Advanced/Struct Embedding|Go 进阶：结构体嵌入]] —— 字段/方法提升、接口复用、遮蔽与歧义
+
+**泛型**
+
+- [[Go/Advanced/Generics|Go 进阶：泛型]] —— 类型参数、约束、`comparable`、`~`、泛型类型与类型推断
 
 ## 推荐资源
 
