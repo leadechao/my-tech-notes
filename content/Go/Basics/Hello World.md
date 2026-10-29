@@ -314,4 +314,6 @@ Hello World 虽然简单，但已经把 Go 的几个核心设计暴露出来了�
 
 ---
 
-返回 [[Go/index|Go 学习笔记]]。
+下一篇：[[Go/Basics/Values|Go 基础：值类型与字面量]]
+
+返回 [[Go/Basics/index|Go 基础]]。

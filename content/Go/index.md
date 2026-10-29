@@ -20,10 +20,27 @@ modified: 2026-10-29
 
 ### 基础
 
+**入门**
+
 - [[Go/Basics/Hello World|Go 入门：从 Hello World 开始]] —— 最小程序结构、`go run` 与 `go build`、常见编译错误
+
+**值与变量**
+
 - [[Go/Basics/Values|Go 基础：值类型与字面量]] —— 基本类型、默认类型、整数除法、浮点精度与类型转换
 - [[Go/Basics/Variables|Go 基础：变量声明与零值]] —— `var`、`:=`、零值、作用域、变量遮蔽与包级变量
 - [[Go/Basics/Constants|Go 基础：常量、无类型常量与 iota]] —— 编译期常量、高精度表达式、typed/untyped 与枚举
+
+**流程控制**
+
+- [[Go/Basics/For|Go 基础：for 循环与 range]] —— 条件循环、三段式、`range`、`break`/`continue` 与标签
+- [[Go/Basics/If-Else|Go 基础：if/else 条件分支]] —— 条件写法、初始化语句、作用域、`else` 位置与无三元运算符
+- [[Go/Basics/Switch|Go 基础：switch 与类型分支]] —— 表达式 switch、多值 case、无表达式 switch、`fallthrough` 与类型 switch
+
+**集合**
+
+- [[Go/Basics/Arrays|Go 基础：数组]] —— 固定长度、零值、字面量、多维数组与值语义
+- [[Go/Basics/Slices|Go 基础：切片]] —— nil 切片、`make`、`append`、`copy`、切片表达式与底层数组
+- [[Go/Basics/Maps|Go 基础：map]] —— 创建、读写、comma-ok、`delete`/`clear`、遍历顺序与 nil map
 
 ## 推荐资源
 

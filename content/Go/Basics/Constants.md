@@ -353,6 +353,6 @@ Java 的 `static final` 字段可以在运行时初始化，引用的对象内�
 ---
 
 上一篇：[[Go/Basics/Variables|Go 基础：变量声明与零值]]
-下一篇：[Go by Example: For](https://gobyexample.com/for)
+下一篇：[[Go/Basics/For|Go 基础：for 循环与 range]]
 
 返回 [[Go/Basics/index|Go 基础]]。
